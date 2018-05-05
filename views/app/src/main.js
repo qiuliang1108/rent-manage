@@ -4,7 +4,9 @@ import router from './router';
 import store from './store';
 import axios from '@Common/axios';
 import api from '@Common/api';
-import validate from '@Common/validate';
+import bluelayer from '@Common/blue-layer';
+import blueAsk from '@Common/blue-ask';
+import blueValidate from '@Common/blue-validate';
 
 Vue.config.productionTip = false;
 

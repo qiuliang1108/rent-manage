@@ -15,7 +15,21 @@ router.get('/register', async (ctx, next) => {
 
 /*login*/
 router.get('/login', async (ctx, next) => {
+  if(ctx.IS_AJAX){
+    ctx.body = {
+      status:1,
+      info:'success',
+      url:''
+    };
+  }
   await ctx.render(viewConfig.viewIndex);
+});
+
+router.get('/test', async (ctx, next) => {
+  ctx.body = {
+    a: 1,
+    b: 2
+  }
 });
 
 module.exports = router;

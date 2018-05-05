@@ -8,7 +8,7 @@ const viewConfig = require('../../../config').views;
 
 /*home*/
 router.get('', async (ctx, next) => {
-  if ( ctx.isAjax ) {
+  if ( ctx.IS_AJAX ) {
     ctx.body = {
       ctx
     }
