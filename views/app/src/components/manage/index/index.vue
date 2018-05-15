@@ -4,7 +4,7 @@
         <!--登录 注册-->
         <div class="row t-c" v-if="!rootState.isLogin.manage">
           <div class="row">
-            <router-link to="/manage/common/login" class="g-btn g-btn-radius g-btn-primary">登录</router-link>
+            <router-link to="/manage/common/login" class="g-btn g-btn-radius g-btn-primary">login</router-link>
           </div>
           <div class="row f-0_8 t-red t-c pd-tb-3">
             (房东管理员使用)

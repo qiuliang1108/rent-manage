@@ -1,5 +1,5 @@
 export default {
-  title: "房租管理系统",
+  title: "rent-system",
   url: 'javascript:history.go(-1);',
   hasUrl: true
 }

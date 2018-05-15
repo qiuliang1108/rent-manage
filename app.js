@@ -32,7 +32,6 @@ const validform = require('./middleware/validform');
 
 //配置文件
 const config = require('./config');
-const dbConfig = require('./config/db-config');
 const sessionConfig = require('./config/session-config');
 
 //路由
